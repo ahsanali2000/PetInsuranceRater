@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+
+	<title>Pet Insurance</title>
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	        crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	        crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+	        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	        crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header id="header-section" class="bs-example">
+	    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+	        <a href="#" class="navbar-brand">
+	            <img src="assets/logo.png" height="50" alt="CoolBrand">
+	        </a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			   <span class="navbar-toggler-icon"></span>
+			</button>
+
+	        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav ml-auto">
+      				<li class="nav-item active">
+	                	<a href="Home.html" class="nav-item nav-link mx-3"><b>Home</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="Home.html#aboutUs" class="nav-item nav-link mx-3"><b>About us</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="Home.html#ourServices" class="nav-item nav-link mx-3"><b>Services</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="Home.html#contact" class="nav-item nav-link mx-3" tabindex="-1"><b>Contact us</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="view profile.html" id="underlineNav" class="nav-item active nav-link mx-3" tabindex="-1"><b>View profile</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="#" data-toggle="modal" data-target="#loginModal" class="button_with_gradient px-5 py-2 mx-3">Log out</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </nav>
+	</header>
+	<section id="viewProfile">
+		<div class="page-content page-container" id="page-content">
+		    <div class="padding">
+		        <div class="row d-flex justify-content-center">
+		            <div class="col-12">
+		                <div class="card user-card-full">
+		                    <div class="row m-l-0 m-r-0">
+		                        <div class="col-sm-4 bg-c-lite-green user-profile">
+		                            <div class="card-block text-center text-white">
+		                                <div class="m-b-25"> <img width="100px" src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image"> </div>
+		                                <h6 class="f-w-600">Hembo Tingor</h6> <i class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
+		                            </div>
+		                        </div>
+		                        <div class="col-sm-8">
+		                            <div class="card-block">
+		                                <h6 class="m-b-20 p-b-5 b-b-default f-w-600 mb-5">Details</h6>
+		                                <div class="row">
+		                                    <div class="col-sm-6 mb-5">
+		                                        <p class="mb-2 f-w-600">Name</p>
+		                                        <h6 class="text-muted f-w-400">Ahsan Ali</h6>
+		                                    </div>
+		                                    <div class="col-sm-6 mb-5">
+		                                        <p class="mb-2 f-w-600">Email</p>
+		                                        <h6 class="text-muted f-w-400">rntng@gmail.com</h6>
+		                                    </div>
+		                                </div>
+		                                <div class="row">
+		                                    <div class="col-sm-6 mb-5">
+		                                        <p class="m-b-10 f-w-600">Company</p>
+		                                        <h6 class="text-muted f-w-400">Zeta Tech pvt Ltd.</h6>
+		                                    </div>
+		                                    <div class="col-sm-6 mb-5">
+		                                        <p class="m-b-10 f-w-600">Phone</p>
+		                                        <h6 class="text-muted f-w-400">98979989898</h6>
+		                                    </div>
+		                                </div>
+
+		                                <div class="row d-none d-lg-block">
+		                                    <div class="col-sm-6 mb-5">
+	                							<a href="#" data-toggle="modal" data-target="#changeModal" class="button_with_gradient px-5 my-3 py-2">Change Password</a>                                	
+		                                    </div>
+		                                </div>	
+		                                
+		                                <div class="row d-block d-md-none text-center">
+		                                    <div class="col-sm-6 mb-5">
+	                							<a href="#" data-toggle="modal" data-target="#changeModal" class="button_with_gradient px-5 my-3 py-2">Change Password</a>                                	
+		                                    </div>
+		                                </div>	
+
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</section>
+	<footer class="text-center pt-4">
+		<p>@Pet Insurance Rater 2021</p>
+	</footer>
+
+	<div class="modal fade" id="changeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+    	<div class="modal-content">
+		  	<div id="card" class="bg-white">
+		  		<div id="crossButton">
+		  			<a href="#" class="p-3"  data-dismiss="modal" style="text-decoration: none">&nbsp;&#x2715;</a>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col-1"></div>
+		  			<div class="col-10">
+		  				<div class="row">
+		  					<div class="col-3 ml-3 my-2" style="height: 5px;width: 100%;background: #00B3DB"></div>
+		  				</div>
+		  				<h3><b>CHANGE PASSWORD</b></h3>
+		  				<form id="signInForm" class="my-3">
+		  					<input type="password" name="password" class="col-12 my-3 px-3 py-2" placeholder="Password">
+		  					<input type="password" name="password1" class="col-12 my-3 px-3 py-2" placeholder="Confirm Password">
+		  					<input type="submit" name="Change" class="col-12 mt-4 mb-1 p-3" value="CHANGE PASSWORD">
+		  				</form>
+		  			</div>
+		  			<div class="col-1"></div>
+		  		</div>
+		  	</div>
+		  	</div>
+	  </div>
+	</div>
+</body>
+</html>
