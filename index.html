@@ -1,0 +1,277 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+
+	<title>Pet Insurance</title>
+	<link rel="icon" href="assets/icon.png" type="image/gif" sizes="57x57">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	        crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	        crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+	        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	        crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header id="header-section" class="bs-example">
+	    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+	        <a href="#" class="navbar-brand">
+	            <img src="assets/logo.png" height="50" alt="CoolBrand">
+	        </a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			   <span class="navbar-toggler-icon"></span>
+			</button>
+
+	        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav ml-auto">
+      				<li class="nav-item active">
+	                	<a href="#header-section" id="underlineNav"  class="nav-item nav-link  active mx-3"><b>Home</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="#aboutUs" class="nav-item nav-link mx-3"><b>About us</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="#ourServices" class="nav-item nav-link mx-3"><b>Services</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="#contact" class="nav-item nav-link mx-3" tabindex="-1"><b>Contact us</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="view profile.html" class="nav-item nav-link mx-3" tabindex="-1"><b>View profile</b></a>
+	                </li>
+      				<li class="nav-item">
+	                <a href="#" data-toggle="modal" data-target="#loginModal" class="button_with_gradient px-5 py-2 mx-3">Login</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </nav>
+
+	    <div class="bg-overlay">
+			<div class="row text-center">
+				<div class="col-lg-2 col-md-1"></div>
+				<div class="col-lg-8 col-md-10 col-12">
+					<p>Get your pet the best care<span><img id="dogImageHeading" src="assets/heading_dog.png"></span></p>
+			        <h4>
+			        	Not all pet insurance is created equal. Modern, flexible, enterprise insurance rating system that reduces the time required to develop new rating and make rating changes.
+			        </h4>
+			        <div class="mt-4">
+				        <a href="#ourServices" class="button_with_gradient m-2 px-5 py-3">Explore Resources</a>
+				        <a href=""  class="button_with_gradient_new m-2 px-5 py-3">Don't Have an account?</a>
+			        </div>
+			    </div>
+				<div class="col-lg-2 col-md-1"></div>
+			</div>
+		</div>
+
+	</header>
+
+	<section id="aboutUs" class="p-5">
+		<div id="sectionHeading" class="pl-3">
+			<p>Introduction</p>
+			<h2 style="margin-top: -1%"><b>About us</b></h2>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-12">
+				<h1 class="my-5 pt-5">
+					<b>
+						We provide exceptional solution for clients	
+					</b>
+				</h1>
+				<p style="text-align: justify;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat volutpat sapien. Vivamus nec diam mattis, semper massa placerat, mattis ex. Ut dignissim erat in convallis tincidunt. Cras interdum neque vitae porttitor porttitor. Ut consequat nec sem at aliquet. Nulla dictum nisl vel posuere sollicitudin.
+				</p>
+			    <a href="#ourServices" class="button_with_gradient px-5 py-3 my-3">Get Started</a>
+			</div>
+			<div class="col-6 d-none d-lg-block">
+				<div id="overlapMain">
+					<img id="overlap1" src="assets/dog_about.png" height="30%" width="30%">
+					<img id="overlap2" src="assets/dog_about.png" height="70%" width="70%">
+				</div>
+			</div>
+			<div class="col-12 d-md-block d-lg-none">
+				<div id="overlapMainMD">
+					<img id="overlap1" src="assets/dog_about.png" height="40%" width="40%">
+					<img id="overlap2" src="assets/dog_about.png" height="70%" width="70%">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="ourServices" class="m-5 pt-5">
+		<div id="sectionHeading" class="pl-3">
+			<p>Comapanies</p>
+			<h2 style="margin-top: -1%"><b>Our Services</b></h2>
+		</div>
+		<div class="row my-5">
+			<div class="col-lg-4 col-md-6">
+				<div class="companyCard py-3 mx-1 mt-3 row">
+					<div class="col-3">
+						<img src="assets/handshake.png" height="80" width="80">
+					</div>
+					<div class="col-7 ml-4">
+						<span class="CardHeading">Bussiness<br/>Consulting</span>
+					</div>		
+					<p class="text-white px-3 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem ligula.</p>
+					<a href=""  class="text-white px-3"><b>Continue Reading &rarr;</b></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">	
+				<div class="companyCard py-3 mx-1 mt-3 row">
+					<div class="col-3">
+						<img src="assets/handshake.png" height="90" width="90">
+					</div>
+					<div class="col-7 ml-4">
+						<span class="CardHeading">Bussiness<br/>Consulting</span>
+					</div>		
+					<p class="text-white px-3 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem ligula.</p>
+					<a href=""  class="text-white px-3"><b>Continue Reading &rarr;</b></a>
+				</div>			
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="companyCard py-3 mx-1 mt-3 row">
+					<div class="col-3">
+						<img src="assets/handshake.png" height="80" width="80">
+					</div>
+					<div class="col-7 ml-4">
+						<span class="CardHeading">Bussiness<br/>Consulting</span>
+					</div>		
+					<p class="text-white px-3 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem ligula.</p>
+					<a href=""  class="text-white px-3"><b>Continue Reading &rarr;</b></a>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<section id="satisfactionSec">
+		<div id="satisfaction" class="col-12">
+			<div class="row">
+				<div class="col-12">
+					<div class="d-none d-lg-block">
+						<p class="mx-5">We always care about client satisfaction</p>
+				        <h4 class="mx-5">
+				        	Not all pet insurance is created equal. Modern, flexible, enterprise insurance rating system that reduces the time required to develop new rating and make rating changes.
+				        </h4>
+				    </div>
+					<div class="d-none d-md-block d-lg-none">
+						<h1 class="mx-5">We always care about client satisfaction</h1>
+				        <p class="mx-5">
+				        	Not all pet insurance is created equal. Modern, flexible, enterprise insurance rating system that reduces the time required to develop new rating and make rating changes.
+				        </p>
+				    </div>
+					<div class="d-sm-block d-md-none">
+						<h3 class="mx-5">We always care about client satisfaction</h3>
+				        <p class="mx-5">
+				        	Not all pet insurance is created equal. Modern, flexible, enterprise insurance rating system that reduces the time required to develop new rating and make rating changes.
+				        </p>
+				    </div>
+				</div>
+			
+			</div>	
+		</div>
+	</section>
+	<section id="contact" class="m-5">
+		<div id="sectionHeading" class="pl-3">
+			<p>Get in touch</p>
+			<h2 style="margin-top: -1%"><b>Contact us</b></h2>
+		</div>
+		<div id="contactHeading" class="mt-5">
+			<h1>Feel free to call us at <span>+123456789</span></h1>
+			<p>Or fill out the form below</p>
+		</div>
+		<form id="contactForm">
+			<div class="row">
+				<div class="col-lg-6 col-12">
+					<input type="text" required placeholder="NAME*">
+					<input type="Email" required placeholder="EMAIL*">
+				</div>
+				<div class="col-lg-6 col-12">
+					<input type="text" required placeholder="PHONE*">
+					<input type="Email" required placeholder="MESSAGE*">
+				</div>
+				<div class="my-5">
+					<input type="submit" class="button_with_gradient  px-5 py-2 mx-3">
+				</div>
+			</div>
+		</form>
+	</section>
+	<footer class="text-center pt-4">
+		<p>@Pet Insurance Rater 2021</p>
+	</footer>
+
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+    	<div class="modal-content">
+		  	<div id="card" class="bg-white">
+		  		<div id="crossButton">
+		  			<a href="#" class="p-3"  data-dismiss="modal" style="text-decoration: none">&nbsp;&#x2715;</a>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col-1"></div>
+		  			<div class="col-10">
+		  				<div class="row">
+		  					<div class="col-2 ml-3 my-2" style="height: 5px;width: 70%;background: #00B3DB"></div>
+		  				</div>
+		  				<h3><b>SIGN IN</b></h3>
+		  				<form id="signInForm" class="my-3">
+		  					<input type="text" name="email" class="col-12 my-3 px-3 py-2" placeholder="Email">
+		  					<input type="password" name password class="col-12 my-3 px-3 py-2" placeholder="Password">
+		  					<input type="submit" name="signIn" class="col-12 mt-4 mb-1 p-3" value="SIGN IN">
+		  				</form>
+		  				<div id="noAccount" class="mb-5">
+			  				<div class="pb-3">
+				  				<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#forgotModal" >Forgot your password?</a>
+				  			</div>
+				  			<div class="row mx-1">
+				  				<div class="col-5" style="height: 2px;width: 100%;background: black"></div>
+				  				<div class="col-2" style="color: grey; margin-top: -10px;"><b>OR</b></div>
+				  				<div class="col-5" style="height: 2px;width: 100%;background: black"></div>
+								<a href="#" class="col-12 my-2 p-3 bg-dark text-center">Don't Have an account?</a>
+				  			</div>
+		  				</div>
+		  			</div>
+		  			<div class="col-1"></div>
+		  		</div>
+		  	</div>
+		  	</div>
+	  </div>
+	</div>
+
+	<!-- for forgot password -->
+	<div class="modal fade" id="forgotModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+    	<div class="modal-content">
+		  	<div id="card" class="bg-white">
+		  		<div id="crossButton">
+		  			<a href="#" class="p-3"  data-dismiss="modal" style="text-decoration: none">&nbsp;&#x2715;</a>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col-1"></div>
+		  			<div class="col-10">
+		  				<div class="row">
+		  					<div class="col-3 ml-3 my-2" style="height: 5px;width: 100%;background: #00B3DB"></div>
+		  				</div>
+		  				<h3><b>FORGOT PASSWORD</b></h3>
+		  				<form id="signInForm" class="my-3">
+		  					<input type="text" name="email" class="col-12 my-3 px-3 py-2" placeholder="Email">
+		  					<input type="submit" name="signIn" class="col-12 mt-4 mb-1 p-3" value="RESET PASSWORD">
+		  				</form>
+		  			</div>
+		  			<div class="col-1"></div>
+		  		</div>
+		  	</div>
+		  	</div>
+	  </div>
+	</div>
+</body>
+</html>
