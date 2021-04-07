@@ -7,7 +7,6 @@
 	<meta name="author" content="SitePoint">
 
 	<title>Pet Insurance</title>
-
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 	      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -20,6 +19,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 	        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 	        crossorigin="anonymous"></script>
+
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -57,61 +59,46 @@
 	    </nav>
 	</header>
 	<section id="viewProfile">
-		<div class="page-content page-container" id="page-content">
-		    <div class="padding">
-		        <div class="row d-flex justify-content-center">
-		            <div class="col-12">
-		                <div class="card user-card-full">
-		                    <div class="row m-l-0 m-r-0">
-		                        <div class="col-md-4 bg-c-lite-green user-profile">
-		                            <div class="card-block text-center text-white">
-		                                <div class="m-b-25"> <img width="100px" src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image"> </div>
-		                                <h6 class="f-w-600">Hembo Tingor</h6> <i class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
-		                            </div>
-		                        </div>
-		                        <div class="col-md-8">
-		                            <div class="card-block">
-		                                <h6 class="m-b-20 p-b-5 b-b-default f-w-600 mb-5">Details</h6>
-		                                <div class="row">
-		                                    <div class="col-md-6 mb-5">
-		                                        <p class="mb-2 f-w-600">Name</p>
-		                                        <h6 class="text-muted f-w-400">Ahsan Ali</h6>
-		                                    </div>
-		                                    <div class="col-md-6 mb-5">
-		                                        <p class="mb-2 f-w-600">Email</p>
-		                                        <h6 class="text-muted f-w-400">rntng@gmail.com</h6>
-		                                    </div>
-		                                </div>
-		                                <div class="row">
-		                                    <div class="col-md-6 mb-5">
-		                                        <p class="m-b-10 f-w-600">Company</p>
-		                                        <h6 class="text-muted f-w-400">Zeta Tech pvt Ltd.</h6>
-		                                    </div>
-		                                    <div class="col-md-6 mb-5">
-		                                        <p class="m-b-10 f-w-600">Phone</p>
-		                                        <h6 class="text-muted f-w-400">98979989898</h6>
-		                                    </div>
-		                                </div>
+		<div class="row">
+			<div class="col-lg-2 col-1"></div>
+			<div class="col-lg-8 col-10"  id="picCard">
+				<div class="row">
+					<div class="col-lg-6 col-12 p-5 m-lg-2 d-none d-lg-block" style="text-align: center">
+						<img src="assets/profile.jpg" width="100%">
+					</div>
+					<div class="col-lg-6 col-12 p-5 m-lg-2 b-block d-lg-none" style="text-align: center">
+						<img src="assets/profile.jpg" width="80%">
+					</div>
+					<div id="userDetails" class="col-lg-5 col-12 pt-5 m-lg-2">
+						<div class="mb-5 text-center">
+							<h1>Ahsan Ali</h1>
+						</div>
+						<div class="row">
+							<div class="d-block col-1 d-lg-none"></div>
+							<div class="col-8 ml-3 ml-lg-0 col-lg-12">
+								<div>
+									<h3><b>Email</b></h3>
+									<p>ahsanali@gmail.com</p>
+								</div>
 
-		                                <div class="row d-none d-lg-block">
-		                                    <div class="col-md-6 mb-5">
-	                							<a href="#" data-toggle="modal" data-target="#changeModal" class="button_with_gradient px-5 my-3 py-2">Change Password</a>                                	
-		                                    </div>
-		                                </div>	
-		                                
-		                                <div class="row d-block d-md-none text-center">
-		                                    <div class="col-md-6 mb-5">
-	                							<a href="#" data-toggle="modal" data-target="#changeModal" class="button_with_gradient px-5 my-3 py-2">Change Password</a>                                	
-		                                    </div>
-		                                </div>	
+								<div>
+									<h3><b>Company</b></h3>
+									<p>Zeta pvt Ltd.</p>
+								</div>
 
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
+								<div>
+									<h3><b>Phone</b></h3>
+									<p>+12334566789</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+	                		<a href="#" data-toggle="modal" data-target="#changeModal" class="button_with_gradient my-3 px-5 py-2 mx-3">Change Password</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
 		</div>
 	</section>
 	<footer class="text-center pt-4">
