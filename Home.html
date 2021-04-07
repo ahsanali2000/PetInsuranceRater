@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
 	<header id="header-section" class="bs-example">
 	    <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	        <a href="#" class="navbar-brand">
@@ -49,7 +48,7 @@
 	                <a href="#contact" class="nav-item nav-link mx-3" tabindex="-1"><b>Contact us</b></a>
 	                </li>
       				<li class="nav-item">
-	                <a href="#" class="button_with_gradient px-5 py-2 mx-3">Login</a>
+	                <a href="#" data-toggle="modal" data-target="#loginModal" class="button_with_gradient px-5 py-2 mx-3">Login</a>
 	                </li>
 	            </ul>
 	        </div>
@@ -64,8 +63,8 @@
 			        	Not all pet insurance is created equal. Modern, flexible, enterprise insurance rating system that reduces the time required to develop new rating and make rating changes.
 			        </h4>
 			        <div class="mt-4">
-				        <a href="" class="button_with_gradient m-2 px-5 py-3">Explore Resources</a>
-				        <a href=""  class="button_with_gradient_new m-2 px-5 py-3">Dont Have an account?</a>
+				        <a href="#ourServices" class="button_with_gradient m-2 px-5 py-3">Explore Resources</a>
+				        <a href=""  class="button_with_gradient_new m-2 px-5 py-3">Don't Have an account?</a>
 			        </div>
 			    </div>
 				<div class="col-lg-2 col-md-1"></div>
@@ -89,7 +88,7 @@
 				<p style="text-align: justify;">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat volutpat sapien. Vivamus nec diam mattis, semper massa placerat, mattis ex. Ut dignissim erat in convallis tincidunt. Cras interdum neque vitae porttitor porttitor. Ut consequat nec sem at aliquet. Nulla dictum nisl vel posuere sollicitudin.
 				</p>
-			    <a href="" class="button_with_gradient px-5 py-3 my-3">Get Started</a>
+			    <a href="#ourServices" class="button_with_gradient px-5 py-3 my-3">Get Started</a>
 			</div>
 			<div class="col-6 d-none d-lg-block">
 				<div id="overlapMain">
@@ -206,5 +205,70 @@
 	<footer class="text-center pt-4">
 		<p>@Pet Insurance Rater 2021</p>
 	</footer>
+
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+    	<div class="modal-content">
+		  	<div id="card" class="bg-white">
+		  		<div id="crossButton">
+		  			<a href="#" class="p-3"  data-dismiss="modal" style="text-decoration: none">&nbsp;&#x2715;</a>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col-1"></div>
+		  			<div class="col-10">
+		  				<div class="row">
+		  					<div class="col-2 ml-3 my-2" style="height: 5px;width: 70%;background: #00B3DB"></div>
+		  				</div>
+		  				<h3><b>SIGN IN</b></h3>
+		  				<form id="signInForm" class="my-3">
+		  					<input type="text" name="email" class="col-12 my-3 px-3 py-2" placeholder="Email">
+		  					<input type="password" name password class="col-12 my-3 px-3 py-2" placeholder="Password">
+		  					<input type="submit" name="signIn" class="col-12 mt-4 mb-1 p-3" value="SIGN IN">
+		  				</form>
+		  				<div id="noAccount" class="mb-5">
+			  				<div class="pb-3">
+				  				<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#forgotModal" >Forgot your password?</a>
+				  			</div>
+				  			<div class="row mx-1">
+				  				<div class="col-5" style="height: 2px;width: 100%;background: black"></div>
+				  				<div class="col-2" style="color: grey; margin-top: -10px;"><b>OR</b></div>
+				  				<div class="col-5" style="height: 2px;width: 100%;background: black"></div>
+								<a href="#" class="col-12 my-2 p-3 bg-dark text-center">Don't Have an account?</a>
+				  			</div>
+		  				</div>
+		  			</div>
+		  			<div class="col-1"></div>
+		  		</div>
+		  	</div>
+		  	</div>
+	  </div>
+	</div>
+
+	<!-- for forgot password -->
+	<div class="modal fade" id="forgotModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+    	<div class="modal-content">
+		  	<div id="card" class="bg-white">
+		  		<div id="crossButton">
+		  			<a href="#" class="p-3"  data-dismiss="modal" style="text-decoration: none">&nbsp;&#x2715;</a>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col-1"></div>
+		  			<div class="col-10">
+		  				<div class="row">
+		  					<div class="col-3 ml-3 my-2" style="height: 5px;width: 100%;background: #00B3DB"></div>
+		  				</div>
+		  				<h3><b>FORGOT PASSWORD</b></h3>
+		  				<form id="signInForm" class="my-3">
+		  					<input type="text" name="email" class="col-12 my-3 px-3 py-2" placeholder="Email">
+		  					<input type="submit" name="signIn" class="col-12 mt-4 mb-1 p-3" value="RESET PASSWORD">
+		  				</form>
+		  			</div>
+		  			<div class="col-1"></div>
+		  		</div>
+		  	</div>
+		  	</div>
+	  </div>
+	</div>
 </body>
 </html>
