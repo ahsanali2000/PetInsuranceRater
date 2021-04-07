@@ -1,0 +1,180 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+::selection {
+  color: white;
+  background: #00B3DB;
+}
+.bs-example{
+    overflow: hidden;
+}
+li.active{
+  border-bottom: 3px solid #00DBCE;
+}
+div.bg-overlay div div p,#satisfaction div div div.d-lg-block p {
+  font-size: 350%;
+  font-weight: 780;
+}
+.bg-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url("assets/background_main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 645px;
+}
+#dogImageHeading{
+    margin-bottom: 30px; 
+  }
+.button_with_gradient {
+   background: #00DBCE;
+   background-image: -webkit-linear-gradient(top, #00DBCE, #00B3DB);
+   background-image: -moz-linear-gradient(top, #00DBCE, #00B3DB);
+   background-image: -ms-linear-gradient(top, #00DBCE, #00B3DB);
+   background-image: -o-linear-gradient(top, #00DBCE, #00B3DB);
+   background-image: -webkit-gradient(to bottom, #00DBCE, #00B3DB);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 200;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button_with_gradient:hover {
+   color: white;
+   text-decoration: none;
+   background-image: -webkit-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -moz-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -ms-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -o-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -webkit-gradient(to bottom, #00B3DB, #00DBCE);
+}
+
+.button_with_gradient_new {
+   background: transparent;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   border:2px solid white;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 200;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button_with_gradient_new:hover {
+    border: 2px solid transparent;
+   color: white;
+   text-decoration: none;
+   background-image: -webkit-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -moz-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -ms-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -o-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -webkit-gradient(to bottom, #00B3DB, #00DBCE);
+}
+#sectionHeading p{
+  color: grey;
+}
+#sectionHeading{
+  border-left: 4px solid #00B3DB;
+}
+#overlapMain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#overlap1{
+  margin-top: 50%;
+  display: block;
+  margin-right: -12%;
+}
+#overlap2{
+  z-index: -1;
+}
+
+#overlapMainMD{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#overlap1MD{
+  margin-top: 50%;
+  display: block;
+  margin-right: -16%;
+}
+#overlap2MD{
+  z-index: -1;
+}
+.companyCard{
+   background-image: -webkit-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -moz-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -ms-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -o-linear-gradient(top, #00B3DB, #00DBCE);
+   background-image: -webkit-gradient(to bottom, #00B3DB, #00DBCE);
+   border-radius: 5px;
+}
+.CardHeading{
+  font-weight: bold;
+  font-size: 175%;
+  color:white;
+}
+#satisfaction{
+  display: flex;
+  align-items: center;
+  background: url("assets/background2.png");  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  width: 100vw;
+  height: 274px;
+}
+#satisfaction div div{
+  text-align: center;
+}
+#contactHeading h1{
+  font-weight: bold;
+}
+#contactHeading h1 span{
+  color:#00B3DB;
+}
+#contactForm div div.col-lg-6 input{
+  background: #eae8e8;
+  padding: 3%;
+  margin:1%;
+  border-radius: 9px ;
+  margin-top: 5%; 
+  width: 100%;
+}
+#contactForm div div input{
+  border:none;
+}
+footer{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background: #eae8e8;
+  width: 100%;
+  height: 100px;
+}
+footer p{
+  color:grey;
+}
